@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<!-- just empty comment #######################################################################################################################
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#about"">
+            <span class="material-icons-outlined me-1">important_devices</span>
+            Naveen Developer
+          </a>
+          <button 
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+
+<!-- just empty comment ############################### INTRO TITLE ####### INTRO TITLE####### INTRO TITLE####### INTRO TITLE
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+
+      <!-- Hero -->
+      <header class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5">
+                <h2 class="text-center fw-bold mb-2">Hi! I am Naveen,</h2>
+                <h2 class="text-primary text-center fw-bold mb-2">3D Artist / Unity Developer</h2>
+                <p class="lead text-muted mb-4">
+                  I specialize in 3D Modelling and creating Interactive Application for user experiance.
+                </p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                  <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                    Learn More
+                    <span class="material-icons-outlined ms-2">help_outline</span>
+                  </a>
+                  <a class="btn btn-outline-primary btn-large text-uppercase" href="#projects">
+                    View My Work
+                    <span class="material-icons-outlined ms-2">manage_search</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <img class="img-fluid rounded-3 my-5" src="images/hero.jpeg" alt="Hero Image">
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Hero -->
+
+      <main>
+
+<!-- just empty comment ########## ABOUT ####  ABOUT ####  
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+        <!-- About -->
+        <section id="about" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">About</h2>
+              <p class="lead text-muted mb-5">
+                I specialize in 3D Modelling and creating Interactive Application for user experiance.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">palette</span>
+                </div>
+                <h5>Design</h5>
+                <p class="text-muted mb-0">
+                  I create 3D models and texturing using Blender.
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">code</span>
+                </div>
+                <h5>Development</h5>
+                <p class="text-muted mb-0">
+                  I develop 2D/3D Interactive applications using the C#, Unity, Python.
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">settings</span>
+                </div>
+                <h5> Video Content</h5>
+                <p class="text-muted mb-0">
+                  Create explaination /training / demo videos for proof of concept.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About -->
+
+        <hr>
+
+<!-- just empty comment #########################PROJECTS ####  PROJECTS #### PROJECTS ####  PROJECTS #### PROJECTS ####  PROJECTS ####
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+        <!-- Projects -->
+        <section id="projects" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Projects</h2>
+              <p class="lead text-muted mb-5">
+                View some of my latest projects
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+
+<!-- just empty comment ######################### ROW 1   ######  ROW 1    ######  ROW 1    ######  ROW 1    ######  ROW 1    ######  ROW 1    ######  ROW 1  
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/coach_Ar_snip.JPG" alt="Project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Augmented Reality-Coach</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      VR experiance for Automotive Interiors.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/car_ar_wheel_snip.JPG" alt="Project 2">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Augmented Reality-Car Wheels</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      EV Vehicles 3D modelling.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/car_sunlight_snip.JPG" alt="Project 3">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Lighting Rendering</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      Video content creation.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+<!-- just empty comment ################################### ROW 2   ######  ROW 2    ######  ROW 2    ######  ROW 2    ######  ROW 2    ######  ROW 2    ######  ROW 2  
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/train_vr_snip.JPG" alt="Project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">VR - Train Experiance</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      VR experiance for Automotive Interiors.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/buggati_vfx_snip.JPG" alt="Project 2">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">VFX - Buggati on Road</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      EV Vehicles 3D modelling.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/Londonbus_snip.JPG" alt="Project 3">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Cinmatic Bus Video</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      Video content creation.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+<!-- just empty comment #######################################################################################################################  3 nd ROW
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/bmw_compositing_snip.JPG" alt="Project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Automotive Rendering</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      VR experiance for Automotive Interiors.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/trees_vfx_snip.JPG" alt="Project 2">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">VFX Nature</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      EV Vehicles 3D modelling.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/2d_bus_snip.JPG" alt="Project 3">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">2D Animation</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Django</div>
+                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Material UI</div>
+                    </div>
+                    <p class="card-text">
+                      Video content creation.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a 
+                      class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <span class="material-icons-outlined me-1">code</span>
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- just empty comment #######################################################################################################################      row end
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+          </div>
+        </section>
+        <!-- End Projects -->
+
+
+
+<!-- just empty comment #######################################################################################################################
+###########################################################################################################################################
+#####################################################################################################################################-->
+
+
+
+
+        <hr>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Testimonials</h2>
+              <p class="lead text-muted mb-5">
+                Check what clients have said about my work
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis elit ut tellus tempus pharetra.
+                </div>
+                <div class="d-flex align-items-center justify-content-center testimonial">
+                  <img class="rounded-circle me-3" src="images/user1.png" alt="User 1">
+                  <div class="fw-bold">
+                    Amy Jones
+                    <span class="text-primary mx-1">/</span>
+                    CEO, Company 1
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis elit ut tellus tempus pharetra.
+                </div>
+                <div class="d-flex align-items-center justify-content-center testimonial">
+                  <img class="rounded-circle me-3" src="images/user2.png" alt="User 2">
+                  <div class="fw-bold">
+                    James Smith
+                    <span class="text-primary mx-1">/</span>
+                    CEO, Company 2
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="text-center fs-4 fst-italic mb-4 px-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis elit ut tellus tempus pharetra.
+                </div>
+                <div class="d-flex align-items-center justify-content-center testimonial">
+                  <img class="rounded-circle me-3" src="images/user3.png" alt="User 3">
+                  <div class="fw-bold">
+                    Mary Richards
+                    <span class="text-primary mx-1">/</span>
+                    CEO, Company 3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Testimonials -->
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Contact</h2>
+              <p class="lead text-muted mb-5">
+                Do you need a full-stack web developer? I would love to hear from you.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-xl-5 col-xxl-6 mb-5">
+                <div id="map"></div>
+              </div>
+              <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Address</h6>
+                  <p class="lead mb-0">Bengaluru (Bangalore), India</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Phone</h6>
+                  <p class="lead mb-0">123123123</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Email</h6>
+                  <p class="lead mb-0">naveenmcv1990@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Contact -->
+      </main>
+    </div>
+
+    <hr>
+    
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <div class="container px-5 mb-2">
+        Copyright &copy; 
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
